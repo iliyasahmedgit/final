@@ -34,10 +34,10 @@ function connectMeal (text) {
     
         container.innerHTML = `
                             <p> <b> ID: ${idm}</b> </p>
-                            <p><b> Meal Name:  ${title} </b></p>
+                            <p><b> Meal Name :  ${title} </b></p>
                             <img width="300px" src="${imgLink}" <br/> <br> <br>
-                            <p> <b> Category: ${cat}</b> </p>
-                            <p> <b> Area: ${area}</b>
+                            <p> <b> Category : ${cat}</b> </p>
+                            <p> <b> Area : ${area}</b>
                             <p> <b>Ingredients :<br> 
                             1. ${ins} <br>
                             2. ${ins2} <br>
@@ -66,7 +66,7 @@ function moreDetails() {
                             <p>Category : ${data.meals[0].strCategory}   </p>
                         <p> ${data.meals[0].strMealThumb}   </p>
                         <p> Type :${data.meals[0].strTags}   </p>
-                            <p> Youtube link:${data.meals[0].strYoutube} </P><br><br>  
+                            <p> Youtube link :${data.meals[0].strYoutube} </P><br><br>  
                             `;
 
     
