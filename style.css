@@ -1,0 +1,23 @@
+/***********
+Media Queries for TABs:
+**********/
+
+@media only screen and (max-width: 992px) and (min-width:689px)  {
+    
+    .main-container{
+        grid-template-columns: 280px 280px;
+    }
+
+   
+
+
+}
+/***********
+Media Queries for MOBILEs:
+**********/
+@media only screen and (max-width: 688px){
+    
+    .main-container{
+        grid-template-columns: 280px;
+    }
+}
